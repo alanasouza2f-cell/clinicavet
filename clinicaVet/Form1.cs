@@ -21,7 +21,6 @@ namespace clinicaVet
 
         private void tutor_Click(object sender, EventArgs e)
         {
-            // Botão Tutor
             loginUsuario telaLogin = new loginUsuario();
             telaLogin.Show();
             this.Hide();
@@ -29,7 +28,6 @@ namespace clinicaVet
 
         private void clinicaVet_Click(object sender, EventArgs e)
         {
-            // Botão Clínica Vet (Adm)
             loginAdm telaAdm = new loginAdm();
             telaAdm.Show();
             this.Hide();

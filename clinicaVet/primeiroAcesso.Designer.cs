@@ -86,6 +86,7 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(325, 20);
             this.email.TabIndex = 4;
+            this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // senha
             // 
@@ -93,6 +94,7 @@
             this.senha.Name = "senha";
             this.senha.Size = new System.Drawing.Size(323, 20);
             this.senha.TabIndex = 5;
+            this.senha.TextChanged += new System.EventHandler(this.senha_TextChanged);
             // 
             // textBox3
             // 
@@ -100,6 +102,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(322, 20);
             this.textBox3.TabIndex = 6;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // botaoSalvar
             // 
@@ -112,6 +115,7 @@
             this.botaoSalvar.TabIndex = 7;
             this.botaoSalvar.Text = "Salvar";
             this.botaoSalvar.UseVisualStyleBackColor = false;
+            this.botaoSalvar.Click += new System.EventHandler(this.botaoSalvar_Click);
             // 
             // botaoVoltar
             // 
@@ -126,6 +130,7 @@
             this.botaoVoltar.TabIndex = 8;
             this.botaoVoltar.Text = "Voltar para o Login";
             this.botaoVoltar.UseVisualStyleBackColor = false;
+            this.botaoVoltar.Click += new System.EventHandler(this.botaoVoltar_Click);
             // 
             // primeiroAcesso
             // 
